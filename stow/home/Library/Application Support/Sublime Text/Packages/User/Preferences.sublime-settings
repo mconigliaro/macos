@@ -1,0 +1,20 @@
+{
+	"added_words":
+	[
+		"Conigliaro"
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"copy_with_empty_selection": false,
+	"ensure_newline_at_eof_on_save": true,
+	"find_selected_text": true,
+	"save_on_focus_lost": true,
+	"show_panel_on_build": false,
+	"spell_check": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": "all",
+	"update_check": false,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}

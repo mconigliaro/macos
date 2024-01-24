@@ -1,0 +1,21 @@
+# Desktop
+cask '1password'
+cask 'aptible'
+cask 'caffeine'
+cask 'lens'
+cask 'pgadmin4'
+cask 'slack'
+cask 'tuple'
+
+# Shell
+cask '1password-cli'
+brew 'eksctl'
+brew 'helm'
+brew 'ipcalc'
+brew 'kompose'
+brew 'kubernetes-cli'
+brew 'packer'
+brew 'pssh'
+brew 'redis'
+brew 'skaffold'
+brew 'wrk'

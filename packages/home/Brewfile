@@ -1,0 +1,21 @@
+# Provides access to 'drivers'
+tap 'homebrew/cask-drivers'
+
+# Desktop
+cask 'handbrake'
+cask 'netnewswire'
+cask 'openemu-experimental'
+cask 'proton-drive'
+cask 'protonvpn'
+cask 'protonmail-bridge'
+cask 'steam'
+cask 'tor-browser'
+cask 'transmission'
+
+# Shell
+brew 'wakeonlan'
+
+# Infrastructure
+cask 'gutenprint'
+brew 'terminal-notifier'
+brew 'tor'

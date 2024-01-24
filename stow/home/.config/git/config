@@ -1,0 +1,49 @@
+[alias]
+    a = add
+    b = branch
+    ch = checkout
+    co = commit
+    d = diff
+    l = log --all --decorate --oneline --graph
+    ps = push
+    pl = pull
+    s = status
+
+[core]
+    attributesfile = ~/.gitattributes
+
+[credential]
+    helper = osxkeychain
+
+[diff]
+    algorithm = histogram
+
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+
+[init]
+    defaultBranch = master
+
+[interactive]
+    diffFilter = /usr/local/opt/git/share/git-core/contrib/diff-highlight/diff-highlight
+
+[pager]
+    diff = /usr/local/opt/git/share/git-core/contrib/diff-highlight/diff-highlight | less
+    log = /usr/local/opt/git/share/git-core/contrib/diff-highlight/diff-highlight | less
+    show = /usr/local/opt/git/share/git-core/contrib/diff-highlight/diff-highlight | less
+
+[pull]
+    rebase = true
+
+[user]
+    email = mike@conigliaro.org
+    name = Mike Conigliaro
+
+[includeIf "gitdir:~/Developer/work/"]
+    path = ~/Developer/work/.gitconfig
+
+[includeIf "gitdir:~/Developer/other/"]
+    path = ~/Developer/other/.gitconfig
