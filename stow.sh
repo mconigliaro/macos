@@ -18,9 +18,6 @@ if [[ ! -d "$HOME/.ssh" ]]; then
     ssh-keygen -t rsa -b 4096 -o -a 100
 fi
 
-# Sublime Text
-wget -nc -P "$HOME/Library/Application Support/Sublime Text/Installed Packages" "https://packagecontrol.io/Package Control.sublime-package"
-
 # Squid pre-stow
 squid_conf="$brew_prefix/etc/squid.conf"
 if [[ -e "$squid_conf" && ! -L "$squid_conf" ]]; then
