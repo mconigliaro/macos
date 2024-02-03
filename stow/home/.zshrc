@@ -5,12 +5,9 @@ alias reload="exec zsh --login"
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Completions
-if type brew &>/dev/null; then
-    FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-
-    autoload -Uz compinit
-    compinit
-fi
+FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+autoload -Uz compinit
+compinit
 
 # Syntax highlighting
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
