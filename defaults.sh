@@ -73,7 +73,7 @@ killall Finder
 # Configure screen saver
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 5
-defaults write com.apple.screensaver idleTime -int 300
+defaults write com.apple.screensaver idleTime -int 600
 defaults write com.apple.screensaver moduleDict -dict-add moduleName -string "Computer Name"
 defaults write com.apple.screensaver moduleDict -dict-add path -string "/System/Library/Frameworks/ScreenSaver.framework/Resources/Computer Name.saver"
 defaults -currentHost write com.apple.ScreenSaver.Computer-Name MESSAGE -string "Hey kid, I'm a computer."
