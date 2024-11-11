@@ -2,6 +2,7 @@
 tap 'homebrew/cask-drivers'
 
 # Desktop
+cask 'ente-auth'
 cask 'handbrake'
 cask 'netnewswire'
 cask 'openemu-experimental'
