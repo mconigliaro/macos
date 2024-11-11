@@ -1,7 +1,9 @@
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
+brew 'mas'
 
 # Desktop
+mas 'amphetamine', id: 937984704
 cask 'appcleaner'
 cask 'bitwarden'
 cask 'brave-browser'
