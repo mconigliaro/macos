@@ -66,6 +66,7 @@ brew 'asdf'
 brew 'npm'
 brew 'pipx'
 brew 'tfenv'
+brew 'uv'
 
 # Code quality
 brew 'ansible-lint'
