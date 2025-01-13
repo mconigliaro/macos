@@ -1,6 +1,5 @@
 # Desktop
 cask '1password'
-cask 'aptible'
 cask 'lens'
 cask 'slack'
 cask 'tuple'
