@@ -68,6 +68,7 @@ brew 'xz'
 brew 'zlib'
 
 # Languages
+brew 'ansible-lint'
 brew 'asdf'
 brew 'npm'
 brew 'pipx'
