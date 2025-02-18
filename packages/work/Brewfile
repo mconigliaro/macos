@@ -1,16 +1,13 @@
-# Desktop
 cask '1password'
-cask 'lens'
-cask 'slack'
-cask 'tuple'
-
-# Shell
 cask '1password-cli'
+cask 'box-drive'
 brew 'eksctl'
 brew 'helm'
 brew 'kompose'
 brew 'kubernetes-cli'
-brew 'packer'
+cask 'lens'
 brew 'pssh'
 brew 'redis'
 brew 'skaffold'
+cask 'slack'
+cask 'tuple'
