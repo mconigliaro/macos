@@ -11,6 +11,7 @@ fi
 if [[ $(uname -m) == 'x86_64' && ! -e /opt/homebrew ]]; then
   sudo ln -s /usr/local /opt/homebrew
 fi
+compaudit | xargs chmod g-w
 
 # Install packages
 for l in common $LOCATION; do
