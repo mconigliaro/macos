@@ -1,5 +1,6 @@
 cask '1password'
 cask '1password-cli'
+brew 'argocd'
 cask 'box-drive'
 brew 'eksctl'
 brew 'helm'
